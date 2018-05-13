@@ -1,0 +1,23 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: $purple;
+}
+
+.fullscreen-container {
+  @include dimensions(100vw, auto);
+  background: $purple;
+}
+
+#homepage-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#welcome-header {
+  font-family: $fortnite;
+  color: white;
+  font-size: 64px;
+}

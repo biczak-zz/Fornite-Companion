@@ -1,0 +1,14 @@
+#challenge-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+#top-bottom {
+  grid-area: topButton;
+}
+
+#bottom-bottom {
+  grid-area: bottomButton;
+}
