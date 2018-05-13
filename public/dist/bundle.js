@@ -13878,7 +13878,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: \"burbank_big_condensedblack\";\n  src: url(" + escape(__webpack_require__(/*! ../assets/fonts/burbank_big_condensed_black-webfont.woff2 */ "./public/assets/fonts/burbank_big_condensed_black-webfont.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../assets/fonts/burbank_big_condensed_black-webfont.woff */ "./public/assets/fonts/burbank_big_condensed_black-webfont.woff")) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\nbody {\n  padding: 0;\n  margin: 0;\n  background: #6c2d99; }\n\n.fullscreen-container {\n  width: 100vw;\n  height: auto;\n  background: #6c2d99; }\n\n#homepage-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n\n#welcome-header {\n  font-family: \"burbank_big_condensedblack\";\n  color: white;\n  font-size: 64px; }\n\n#challenge-container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: stretch; }\n\n#top-bottom {\n  grid-area: topButton; }\n\n#bottom-bottom {\n  grid-area: bottomButton; }\n\n.challenge-segment {\n  width: 45%;\n  background: linear-gradient(to right, #303d5c 90%, #1c2847 10%) !important;\n  padding: 0 !important;\n  margin: 10px 2.5px !important;\n  text-align: left;\n  display: grid;\n  grid-template: \" title reward \" 20% \" increment reward \" 60% \" progress reward \" 20% / 90% 10%;\n  grid-area: challenge; }\n\n.challenge-hard {\n  color: red; }\n\n.hide {\n  display: none !important; }\n\n.challenge-header {\n  font-family: \"burbank_big_condensedblack\" !important;\n  font-size: 21px !important;\n  color: #e6e6e6 !important;\n  -webkit-text-stroke: 1px black !important;\n  margin-top: 10px !important;\n  margin-left: 10px !important;\n  grid-area: title; }\n\n.challenge-buttons,\n.challenge-input {\n  grid-area: increment; }\n\n.challenge-progress-row {\n  background: #7391b9 !important;\n  grid-area: progress; }\n\n.challenge-progress-bar {\n  width: 90%;\n  margin-bottom: 23px !important;\n  justify-self: center;\n  align-self: flex-end; }\n\n.challenge-progress-text {\n  color: #e6e6e6; }\n\n.challenge-reward-row {\n  background: #1c2847;\n  color: #b1ff63; }\n\n.challenge-reward-text {\n  font-size: 14px;\n  grid-area: reward;\n  background: #1c2847;\n  display: flex;\n  align-items: center;\n  text-align: center;\n  justify-content: center; }\n\n.challenge-reward-incomplete {\n  color: #e6e6e6 !important;\n  align-self: center; }\n\n.challenge-reward-complete {\n  color: springgreen !important;\n  align-self: center; }\n\nlabel {\n  color: #e6e6e6 !important; }\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: \"burbank_big_condensedblack\";\n  src: url(" + escape(__webpack_require__(/*! ../assets/fonts/burbank_big_condensed_black-webfont.woff2 */ "./public/assets/fonts/burbank_big_condensed_black-webfont.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../assets/fonts/burbank_big_condensed_black-webfont.woff */ "./public/assets/fonts/burbank_big_condensed_black-webfont.woff")) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\nbody {\n  padding: 0;\n  margin: 0;\n  background: #6c2d99; }\n\n.fullscreen-container {\n  width: 100vw;\n  height: auto;\n  background: #6c2d99; }\n\n#homepage-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n\n#welcome-header {\n  font-family: \"burbank_big_condensedblack\";\n  color: white;\n  font-size: 64px; }\n\n#challenge-container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: stretch; }\n\n#top-bottom {\n  grid-area: topButton; }\n\n#bottom-bottom {\n  grid-area: bottomButton; }\n\n@media screen and (max-width: 750px) {\n  .challenge-segment {\n    width: 100% !important;\n    background: linear-gradient(to right, #303d5c 90%, #1c2847 10%) !important;\n    padding: 0 !important;\n    margin: 10px 2.5px !important;\n    text-align: left;\n    display: grid;\n    grid-template: \" title reward \" 20% \" increment reward \" 60% \" progress reward \" 20% / 90% 10%;\n    grid-area: challenge; } }\n\n.challenge-segment {\n  width: 45%;\n  background: linear-gradient(to right, #303d5c 90%, #1c2847 10%) !important;\n  padding: 0 !important;\n  margin: 10px 2.5px !important;\n  text-align: left;\n  display: grid;\n  grid-template: \" title reward \" 20% \" increment reward \" 60% \" progress reward \" 20% / 90% 10%;\n  grid-area: challenge; }\n\n.challenge-hard {\n  color: red; }\n\n.hide {\n  display: none !important; }\n\n.challenge-header {\n  font-family: \"burbank_big_condensedblack\" !important;\n  font-size: 21px !important;\n  color: #e6e6e6 !important;\n  -webkit-text-stroke: 1px black !important;\n  margin-top: 10px !important;\n  margin-left: 10px !important;\n  grid-area: title; }\n\n.challenge-buttons,\n.challenge-input {\n  grid-area: increment; }\n\n.challenge-progress-row {\n  background: #7391b9 !important;\n  grid-area: progress; }\n\n.challenge-progress-bar {\n  width: 90%;\n  margin-bottom: 23px !important;\n  justify-self: center;\n  align-self: flex-end; }\n\n.challenge-progress-text {\n  color: #e6e6e6; }\n\n.challenge-reward-row {\n  background: #1c2847;\n  color: #b1ff63; }\n\n.challenge-reward-text {\n  font-size: 14px;\n  grid-area: reward;\n  background: #1c2847;\n  display: flex;\n  align-items: center;\n  text-align: center;\n  justify-content: center; }\n\n.challenge-reward-incomplete {\n  color: #e6e6e6 !important;\n  align-self: center; }\n\n.challenge-reward-complete {\n  color: springgreen !important;\n  align-self: center; }\n\nlabel {\n  color: #e6e6e6 !important; }\n", ""]);
 
 // exports
 
@@ -75302,12 +75302,21 @@ var Challenge = function (_Component) {
   }, {
     key: 'submitInput',
     value: function submitInput() {
+      var input = this.state.userInput;
+      if (this.state.userInput > this.state.goal) {
+        input = this.state.goal;
+      } else if (this.state.userInput < 0) {
+        input = 0;
+      } else if (this.state.userInput === '') {
+        input = this.state.progress;
+      }
+
       this.setState({
-        progress: this.state.userInput,
-        percent: this.state.userInput / this.state.goal * 100,
+        progress: input,
+        percent: input / this.state.goal * 100,
         userInput: ''
       });
-      return this.props.updateChallenge(this.props.challenge.id, this.state.userInput);
+      return this.props.updateChallenge(this.props.challenge.id, input);
     }
   }, {
     key: 'toggleCheckbox',

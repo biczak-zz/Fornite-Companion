@@ -64,12 +64,21 @@ class Challenge extends Component {
   }
 
   submitInput() {
+    let input = this.state.userInput;
+    if (this.state.userInput > this.state.goal) {
+      input = this.state.goal;
+    } else if (this.state.userInput < 0) {
+      input = 0;
+    } else if (this.state.userInput === '') {
+      input = this.state.progress;
+    }
+
     this.setState({
-      progress: this.state.userInput,
-      percent: this.state.userInput / this.state.goal * 100,
+      progress: input,
+      percent: input / this.state.goal * 100,
       userInput: '',
     });
-    return this.props.updateChallenge(this.props.challenge.id, this.state.userInput);
+    return this.props.updateChallenge(this.props.challenge.id, input);
   }
 
   toggleCheckbox(e) {
