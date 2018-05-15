@@ -1,0 +1,107 @@
+@media screen and (max-width: 750px) {
+  .challenge-segment {
+    width: 100% !important;
+    background: linear-gradient(
+      to right,
+      $medium-blue 90%,
+      $dark-blue 10%
+    ) !important;
+    padding: 0 !important;
+    margin: 10px 2.5px !important;
+    text-align: left;
+    display: grid;
+    grid-template:
+      " title reward " 20%
+      " increment reward " 60%
+      " progress reward " 20%
+      / 90% 10%;
+    grid-area: challenge;
+  }
+}
+
+.challenge-segment {
+  width: 45%;
+  background: linear-gradient(
+    to right,
+    $medium-blue 90%,
+    $dark-blue 10%
+  ) !important;
+  padding: 0 !important;
+  margin: 10px 2.5px !important;
+  text-align: left;
+  display: grid;
+  grid-template:
+    " title reward " 20%
+    " increment reward " 60%
+    " progress reward " 20%
+    / 90% 10%;
+  grid-area: challenge;
+}
+
+.challenge-hard {
+  color: red;
+}
+
+.hide {
+  display: none !important;
+}
+
+.challenge-header {
+  font-family: $fortnite !important;
+  font-size: 21px !important;
+  color: rgb(230, 230, 230) !important;
+  -webkit-text-stroke: 1px black !important;
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  grid-area: title;
+}
+
+.challenge-buttons,
+.challenge-input {
+  grid-area: increment;
+}
+
+.challenge-progress-row {
+  background: $light-blue !important;
+  grid-area: progress;
+}
+
+.challenge-progress-bar {
+  width: 90%;
+  margin-bottom: 23px !important;
+  justify-self: center;
+  align-self: flex-end;
+}
+
+.challenge-progress-text {
+  color: rgb(230, 230, 230);
+}
+
+.challenge-reward-row {
+  background: $dark-blue;
+  color: $green;
+}
+
+.challenge-reward-text {
+  font-size: 14px;
+  grid-area: reward;
+  background: $dark-blue;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.challenge-reward-incomplete {
+  color: rgb(230, 230, 230) !important;
+  align-self: center;
+}
+
+.challenge-reward-complete {
+  color: springgreen !important;
+  align-self: center;
+}
+
+label {
+  color: rgb(230, 230, 230) !important;
+}
