@@ -9,6 +9,7 @@
   "private": true,
   "scripts": {
     "build": "webpack --mode production",
+    "watch": "webpack --mode development --color --watch",
     "dev": "webpack --mode development --color",
     "start": "node server/server.js",
     "test": "jest tests"
