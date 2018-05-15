@@ -53,7 +53,7 @@ module.exports = {
       jQuery: 'jquery',
     }),
   ],
-  watch: true,
+  watch: false,
   watchOptions: {
     ignored: /node_modules/,
   },
