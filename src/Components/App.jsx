@@ -17,17 +17,18 @@ class App extends Component {
     this.cookies = new Cookies();
   }
   componentWillMount() {
-    if (this.cookies.get('user-progress')) {
-      return this.updateProgress(this.cookies.get('user-progress'));
+    if (localStorage.getItem('user-progress')) {
+      const userProgress = JSON.parse(localStorage.getItem('user-progress'));
+      console.log(userProgress);
+      return this.updateProgress(userProgress);
     }
   }
   updateProgress(progress) {
+    // console.log(`Progress: ${progress}`);
+    localStorage.setItem('user-progress', JSON.stringify(progress));
     this.setState({
       progress,
     });
-    setTimeout(() => {
-      this.cookies.set('user-progress', this.state.progress);
-    }, 0);
   }
 
   render() {

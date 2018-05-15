@@ -13878,7 +13878,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, "@font-face {\n  font-family: \"burbank_big_condensedblack\";\n  src: url(" + escape(__webpack_require__(/*! ../assets/fonts/burbank_big_condensed_black-webfont.woff2 */ "./public/assets/fonts/burbank_big_condensed_black-webfont.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../assets/fonts/burbank_big_condensed_black-webfont.woff */ "./public/assets/fonts/burbank_big_condensed_black-webfont.woff")) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\nbody {\n  padding: 0;\n  margin: 0;\n  background: #6c2d99; }\n\n.fullscreen-container {\n  width: 100vw;\n  height: auto;\n  background: #6c2d99; }\n\n#homepage-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n\n#welcome-header {\n  font-family: \"burbank_big_condensedblack\";\n  color: white;\n  font-size: 64px; }\n\n#challenge-container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: stretch; }\n\n#top-bottom {\n  grid-area: topButton; }\n\n#bottom-bottom {\n  grid-area: bottomButton; }\n\n@media screen and (max-width: 750px) {\n  .challenge-segment {\n    width: 100% !important;\n    background: linear-gradient(to right, #303d5c 90%, #1c2847 10%) !important;\n    padding: 0 !important;\n    margin: 10px 2.5px !important;\n    text-align: left;\n    display: grid;\n    grid-template: \" title reward \" 20% \" increment reward \" 60% \" progress reward \" 20% / 90% 10%;\n    grid-area: challenge; } }\n\n.challenge-segment {\n  width: 45%;\n  background: linear-gradient(to right, #303d5c 90%, #1c2847 10%) !important;\n  padding: 0 !important;\n  margin: 10px 2.5px !important;\n  text-align: left;\n  display: grid;\n  grid-template: \" title reward \" 20% \" increment reward \" 60% \" progress reward \" 20% / 90% 10%;\n  grid-area: challenge; }\n\n.challenge-hard {\n  color: red; }\n\n.hide {\n  display: none !important; }\n\n.challenge-header {\n  font-family: \"burbank_big_condensedblack\" !important;\n  font-size: 21px !important;\n  color: #e6e6e6 !important;\n  -webkit-text-stroke: 1px black !important;\n  margin-top: 10px !important;\n  margin-left: 10px !important;\n  grid-area: title; }\n\n.challenge-buttons,\n.challenge-input {\n  grid-area: increment; }\n\n.challenge-progress-row {\n  background: #7391b9 !important;\n  grid-area: progress; }\n\n.challenge-progress-bar {\n  width: 90%;\n  margin-bottom: 23px !important;\n  justify-self: center;\n  align-self: flex-end; }\n\n.challenge-progress-text {\n  color: #e6e6e6; }\n\n.challenge-reward-row {\n  background: #1c2847;\n  color: #b1ff63; }\n\n.challenge-reward-text {\n  font-size: 14px;\n  grid-area: reward;\n  background: #1c2847;\n  display: flex;\n  align-items: center;\n  text-align: center;\n  justify-content: center; }\n\n.challenge-reward-incomplete {\n  color: #e6e6e6 !important;\n  align-self: center; }\n\n.challenge-reward-complete {\n  color: springgreen !important;\n  align-self: center; }\n\nlabel {\n  color: #e6e6e6 !important; }\n", ""]);
+exports.push([module.i, "@font-face {\n  font-family: \"burbank_big_condensedblack\";\n  src: url(" + escape(__webpack_require__(/*! ../assets/fonts/burbank_big_condensed_black-webfont.woff2 */ "./public/assets/fonts/burbank_big_condensed_black-webfont.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../assets/fonts/burbank_big_condensed_black-webfont.woff */ "./public/assets/fonts/burbank_big_condensed_black-webfont.woff")) + ") format(\"woff\");\n  font-weight: normal;\n  font-style: normal; }\n\nbody {\n  padding: 0;\n  margin: 0;\n  background: #6c2d99; }\n\n.fullscreen-container {\n  width: 100vw;\n  height: auto;\n  background: #6c2d99; }\n\n#homepage-container {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column; }\n\n#welcome-header {\n  font-family: \"burbank_big_condensedblack\";\n  color: white;\n  font-size: 64px; }\n\n#challenge-container {\n  display: flex;\n  flex-wrap: wrap;\n  justify-content: center;\n  align-items: stretch; }\n\n#top-bottom {\n  grid-area: topButton; }\n\n#bottom-bottom {\n  grid-area: bottomButton; }\n\n#challenge-filter-dropdown {\n  width: 260px;\n  height: 25px;\n  background: #e6e6e6;\n  margin: 25px auto 0px auto;\n  border-radius: 5px;\n  text-align: center;\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n@media screen and (max-width: 750px) {\n  .challenge-segment {\n    width: 100% !important;\n    background: linear-gradient(to right, #303d5c 90%, #1c2847 10%) !important;\n    padding: 0 !important;\n    margin: 10px 2.5px !important;\n    text-align: left;\n    display: grid;\n    grid-template: \" title reward \" 20% \" increment reward \" 60% \" progress reward \" 20% / 90% 10%;\n    grid-area: challenge; } }\n\n.challenge-segment {\n  width: 45%;\n  background: linear-gradient(to right, #303d5c 90%, #1c2847 10%) !important;\n  padding: 0 !important;\n  margin: 10px 2.5px !important;\n  text-align: left;\n  display: grid;\n  grid-template: \" title reward \" 20% \" increment reward \" 60% \" progress reward \" 20% / 90% 10%;\n  grid-area: challenge; }\n\n.challenge-hard {\n  color: red; }\n\n.hide {\n  display: none !important; }\n\n.challenge-header {\n  font-family: \"burbank_big_condensedblack\" !important;\n  font-size: 21px !important;\n  color: #e6e6e6 !important;\n  -webkit-text-stroke: 1px black !important;\n  margin-top: 10px !important;\n  margin-left: 10px !important;\n  grid-area: title; }\n\n.challenge-buttons,\n.challenge-input {\n  grid-area: increment; }\n\n.challenge-progress-row {\n  background: #7391b9 !important;\n  grid-area: progress; }\n\n.challenge-progress-bar {\n  width: 90%;\n  margin-bottom: 23px !important;\n  justify-self: center;\n  align-self: flex-end; }\n\n.challenge-progress-text {\n  color: #e6e6e6; }\n\n.challenge-reward-row {\n  background: #1c2847;\n  color: #b1ff63; }\n\n.challenge-reward-text {\n  font-size: 14px;\n  grid-area: reward;\n  background: #1c2847;\n  display: flex;\n  align-items: center;\n  text-align: center;\n  justify-content: center; }\n\n.challenge-reward-incomplete {\n  color: #e6e6e6 !important;\n  align-self: center; }\n\n.challenge-reward-complete {\n  color: springgreen !important;\n  align-self: center; }\n\nlabel {\n  color: #e6e6e6 !important; }\n", ""]);
 
 // exports
 
@@ -75155,21 +75155,20 @@ var App = function (_Component) {
   _createClass(App, [{
     key: 'componentWillMount',
     value: function componentWillMount() {
-      if (this.cookies.get('user-progress')) {
-        return this.updateProgress(this.cookies.get('user-progress'));
+      if (localStorage.getItem('user-progress')) {
+        var userProgress = JSON.parse(localStorage.getItem('user-progress'));
+        console.log(userProgress);
+        return this.updateProgress(userProgress);
       }
     }
   }, {
     key: 'updateProgress',
     value: function updateProgress(progress) {
-      var _this2 = this;
-
+      // console.log(`Progress: ${progress}`);
+      localStorage.setItem('user-progress', JSON.stringify(progress));
       this.setState({
         progress: progress
       });
-      setTimeout(function () {
-        _this2.cookies.set('user-progress', _this2.state.progress);
-      }, 0);
     }
   }, {
     key: 'render',
@@ -75212,6 +75211,8 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
+
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
 var _react = __webpack_require__(/*! react */ "./node_modules/react/index.js");
@@ -75221,6 +75222,8 @@ var _react2 = _interopRequireDefault(_react);
 var _semanticUiReact = __webpack_require__(/*! semantic-ui-react */ "./node_modules/semantic-ui-react/dist/es/index.js");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -75237,13 +75240,11 @@ var Challenge = function (_Component) {
     var _this = _possibleConstructorReturn(this, (Challenge.__proto__ || Object.getPrototypeOf(Challenge)).call(this, props));
 
     _this.state = {
-      completed: false,
+      completed: _this.props.challenge.completed,
       progress: _this.props.challenge.progress,
       goal: _this.props.challenge.goal,
-      percent: 0,
       checkedBoxes: 0,
-      userInput: '',
-      reward: 0
+      userInput: undefined
     };
 
     _this.incrementProgress = _this.incrementProgress.bind(_this);
@@ -75255,6 +75256,13 @@ var Challenge = function (_Component) {
   }
 
   _createClass(Challenge, [{
+    key: 'componentWillMount',
+    value: function componentWillMount() {
+      if (this.props.challenge.id === '0102') {
+        console.log('Mounting: ' + JSON.stringify(this.props.challenge));
+      }
+    }
+  }, {
     key: 'componentDidMount',
     value: function componentDidMount() {
       var checkedBoxes = document.getElementsByClassName('ui checked checkbox');
@@ -75267,6 +75275,19 @@ var Challenge = function (_Component) {
       }
     }
   }, {
+    key: 'shouldComponentUpdate',
+    value: function shouldComponentUpdate(newProps, newState) {
+      if (this.state.progress !== newProps.challenge.progress) {
+        this.setState({
+          completed: this.props.challenge.completed,
+          progress: this.props.challenge.progress,
+          goal: this.props.challenge.goal
+        });
+        return true;
+      }
+      return false;
+    }
+  }, {
     key: 'incrementProgress',
     value: function incrementProgress() {
       if (this.state.progress < this.state.goal) {
@@ -75277,74 +75298,79 @@ var Challenge = function (_Component) {
           percent: percentage
         });
       }
+      window.gtag('event', 'Progress Incremented');
       return this.props.updateChallenge(this.props.challenge.id, this.state.progress + 1);
     }
   }, {
     key: 'decrementProgress',
     value: function decrementProgress() {
+      console.log('this.state.progress is a ' + _typeof(this.state.progress));
       if (this.state.progress > 0) {
+        alert('Decrementing');
         var increment = (this.state.progress - 1) / this.state.goal;
         var percentage = increment * 100;
+        window.gtag('event', 'Progress Decremented');
         this.setState({
           progress: this.state.progress - 1,
           percent: percentage
         });
+        return this.props.updateChallenge(this.props.challenge.id, this.state.progress - 1);
       }
-      return this.props.updateChallenge(this.props.challenge.id, this.state.progress + 1);
     }
   }, {
     key: 'inputProgress',
     value: function inputProgress(e) {
-      this.setState({
+      var userInput = e.target.value;
+      if (Number(userInput) > this.props.challenge.goal) {
+        e.target.value = this.props.challenge.goal;
+      } else if (Number(userInput) < 0) {
+        e.target.value = 0;
+      }
+      return this.setState({
         userInput: e.target.value
       });
     }
   }, {
     key: 'submitInput',
     value: function submitInput() {
+      window.gtag('event', 'Input Submitted');
       var input = this.state.userInput;
       if (this.state.userInput > this.state.goal) {
         input = this.state.goal;
       } else if (this.state.userInput < 0) {
         input = 0;
-      } else if (this.state.userInput === '') {
+      } else if (!this.state.userInput || this.state.userInput === '') {
         input = this.state.progress;
       }
 
       this.setState({
         progress: input,
         percent: input / this.state.goal * 100,
-        userInput: ''
+        userInput: undefined
       });
       return this.props.updateChallenge(this.props.challenge.id, input);
     }
   }, {
     key: 'toggleCheckbox',
     value: function toggleCheckbox(e) {
-      var _this2 = this;
-
-      setTimeout(function () {
-        var checkedBoxes = document.getElementsByClassName('ui checked checkbox');
-        if (checkedBoxes.length > _this2.state.checkedBoxes) {
-          _this2.setState({
-            progress: 1,
-            checkedBoxes: checkedBoxes.length
-          });
-        } else {
-          _this2.setState({
-            progress: 0,
-            checkedBoxes: checkedBoxes.length
-          });
-        }
-      }, 10);
+      if (![].concat(_toConsumableArray(e.currentTarget.classList)).includes('checked')) {
+        this.setState({
+          progress: 1
+        });
+        return this.props.updateChallenge(this.props.challenge.id, this.props.challenge.goal);
+      }
+      this.setState({
+        progress: 0
+      });
+      return this.props.updateChallenge(this.props.challenge.id, 0);
     }
   }, {
     key: 'render',
     value: function render() {
-      var _this3 = this;
+      var _this2 = this;
 
       var inputButtonsOrCheckbox = function inputButtonsOrCheckbox() {
-        if (_this3.props.challenge.completed) {
+        if (_this2.props.challenge.completed) {
           return _react2.default.createElement(
             'div',
             {
@@ -75358,7 +75384,7 @@ var Challenge = function (_Component) {
             _react2.default.createElement(_semanticUiReact.Icon, { name: 'checkmark', size: 'large', style: { color: 'springgreen' } })
           );
         }
-        if (_this3.props.challenge.goal === 1) {
+        if (_this2.props.challenge.goal === 1) {
           return _react2.default.createElement(
             'div',
             {
@@ -75369,9 +75395,9 @@ var Challenge = function (_Component) {
                 alignItems: 'center'
               }
             },
-            _react2.default.createElement(_semanticUiReact.Checkbox, { label: 'Complete', onChange: _this3.toggleCheckbox })
+            _react2.default.createElement(_semanticUiReact.Checkbox, { label: 'Complete', onChange: _this2.toggleCheckbox })
           );
-        } else if (_this3.props.challenge.goal <= 10) {
+        } else if (_this2.props.challenge.goal <= 10) {
           return _react2.default.createElement(
             'div',
             {
@@ -75385,14 +75411,14 @@ var Challenge = function (_Component) {
             _react2.default.createElement(_semanticUiReact.Button, {
               className: 'challenge-buttons',
               negative: true,
-              onClick: _this3.decrementProgress,
+              onClick: _this2.decrementProgress,
               icon: 'minus',
               size: 'tiny'
             }),
             _react2.default.createElement(_semanticUiReact.Button, {
               className: 'challenge-buttons',
               positive: true,
-              onClick: _this3.incrementProgress,
+              onClick: _this2.incrementProgress,
               icon: 'plus',
               size: 'tiny'
             })
@@ -75411,14 +75437,14 @@ var Challenge = function (_Component) {
           _react2.default.createElement(_semanticUiReact.Input, {
             className: 'challenge-input',
             type: 'number',
-            value: _this3.state.userInput,
-            onChange: _this3.inputProgress
+            value: Number(_this2.state.userInput) || _this2.state.userInput,
+            onChange: _this2.inputProgress
           }),
-          _react2.default.createElement(_semanticUiReact.Button, { className: 'challenge-input', onClick: _this3.submitInput, content: 'Update' })
+          _react2.default.createElement(_semanticUiReact.Button, { className: 'challenge-input', onClick: _this2.submitInput, content: 'Update' })
         );
       };
 
-      var challengeReward = Number(this.state.progress) === this.state.goal ? 'challenge-reward-complete' : 'challenge-reward-incomplete';
+      var challengeReward = Number(this.props.challenge.progress) === this.props.challenge.goal ? 'challenge-reward-complete' : 'challenge-reward-incomplete';
 
       return _react2.default.createElement(
         _semanticUiReact.Segment,
@@ -75439,13 +75465,13 @@ var Challenge = function (_Component) {
           _semanticUiReact.Progress,
           {
             indicating: true,
-            percent: this.state.progress / this.state.goal * 100,
+            percent: this.state.progress / this.props.challenge.goal * 100,
             className: 'challenge-progress-bar'
           },
           _react2.default.createElement(
             'span',
             { className: 'challenge-progress-text' },
-            this.state.progress + ' / ' + this.state.goal
+            this.state.progress + ' / ' + this.props.challenge.goal
           )
         ),
         _react2.default.createElement(
@@ -75491,6 +75517,10 @@ var _react2 = _interopRequireDefault(_react);
 
 var _semanticUiReact = __webpack_require__(/*! semantic-ui-react */ "./node_modules/semantic-ui-react/dist/es/index.js");
 
+var _universalCookie = __webpack_require__(/*! universal-cookie */ "./node_modules/universal-cookie/lib/index.js");
+
+var _universalCookie2 = _interopRequireDefault(_universalCookie);
+
 var _Challenge = __webpack_require__(/*! ./Challenge */ "./src/Components/Challenge.jsx");
 
 var _Challenge2 = _interopRequireDefault(_Challenge);
@@ -75512,8 +75542,70 @@ var Challenges = function (_Component) {
     var _this = _possibleConstructorReturn(this, (Challenges.__proto__ || Object.getPrototypeOf(Challenges)).call(this, props));
 
     _this.state = {
+      filter: 'ALL',
+      current: [],
+      saved: _this.props.progress,
       active: -1,
       challenges: [{
+        week: 'Starter',
+        challenges: [{
+          id: '0001',
+          title: 'Outlive Opponents',
+          progress: 0,
+          goal: 1000,
+          completed: false,
+          hard: false,
+          reward: 5
+        }, {
+          id: '0002',
+          title: 'Play Matches with friends',
+          progress: 0,
+          goal: 10,
+          completed: false,
+          hard: false,
+          reward: 5
+        }, {
+          id: '0003',
+          title: 'Deal damage to opponents',
+          progress: 0,
+          goal: 5000,
+          completed: false,
+          hard: false,
+          reward: 5
+        }, {
+          id: '0004',
+          title: 'Land at different Named Locations',
+          progress: 0,
+          goal: 10,
+          completed: false,
+          hard: false,
+          reward: 5
+        }, {
+          id: '0005',
+          title: 'Play Matches',
+          progress: 0,
+          goal: 50,
+          completed: false,
+          hard: false,
+          reward: 'Ace Spray'
+        }, {
+          id: '0006',
+          title: 'Play matches with at least one elimination',
+          progress: 0,
+          goal: 10,
+          completed: false,
+          hard: false,
+          reward: 'Loading Screen Background'
+        }, {
+          id: '0007',
+          title: 'Win a Match',
+          progress: 0,
+          goal: 1,
+          completed: false,
+          hard: true,
+          reward: '#1 Spray'
+        }]
+      }, {
         week: 1,
         challenges: [{
           id: '0101',
@@ -75631,29 +75723,58 @@ var Challenges = function (_Component) {
           hard: true,
           reward: 1000
         }]
+      }, {
+        week: 'All',
+        challenges: []
       }]
     };
 
     _this.renderChallenges = _this.renderChallenges.bind(_this);
     _this.goBack = _this.goBack.bind(_this);
     _this.updateChallenge = _this.updateChallenge.bind(_this);
+    _this.markAllComplete = _this.markAllComplete.bind(_this);
+    _this.resetChallenges = _this.resetChallenges.bind(_this);
+    _this.filterChallenges = _this.filterChallenges.bind(_this);
+    _this.cookies = new _universalCookie2.default();
     return _this;
   }
 
   _createClass(Challenges, [{
     key: 'componentDidMount',
     value: function componentDidMount() {
-      if (this.props.progress.length > 0) {
+      if (localStorage.getItem('user-progress')) {
         this.setState({
-          challenges: this.props.progress
+          saved: JSON.parse(localStorage.getItem('user-progress'))
         });
+        this.state.saved[this.state.saved.length - 1].challenges = [].concat(this.state.saved[0].challenges, this.state.saved[1].challenges, this.state.saved[2].challenges);
+      } else if (this.props.progress.length > 0) {
+        this.setState({
+          saved: this.props.progress
+        });
+        this.state.saved[this.state.saved.length - 1].challenges = [].concat(this.props.progress[0].challenges, this.props.progress[1].challenges, this.props.progress[2].challenges);
+      }
+      this.state.challenges[this.state.challenges.length - 1].challenges = [].concat(this.state.challenges[0].challenges, this.state.challenges[1].challenges, this.state.challenges[2].challenges);
+      return this.filterChallenges(undefined, { value: this.state.filter });
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate(prevProps, prevState, snapshot) {
+      if (this.state.active !== prevState.active) {
+        return this.filterChallenges(undefined, { value: this.state.filter });
       }
     }
   }, {
     key: 'renderChallenges',
     value: function renderChallenges(e) {
-      this.setState({
-        active: e.target.value - 1
+      if (this.state.saved.length > 0) {
+        return this.setState({
+          active: e.target.value,
+          current: this.state.saved[e.target.value].challenges.slice()
+        });
+      }
+      return this.setState({
+        active: e.target.value,
+        current: this.state.challenges[e.target.value].challenges.slice()
       });
     }
   }, {
@@ -75666,10 +75787,10 @@ var Challenges = function (_Component) {
   }, {
     key: 'updateChallenge',
     value: function updateChallenge(id, updatedData) {
-      var newChallenges = this.state.challenges.slice();
+      if (this.state.saved.length > 0) {
+        var _newChallenges = this.state.saved.slice();
 
-      newChallenges.forEach(function (week) {
-        week.challenges.forEach(function (challenge) {
+        _newChallenges[this.state.active].challenges.forEach(function (challenge) {
           if (challenge.id === id) {
             challenge.progress = updatedData;
           }
@@ -75677,46 +75798,312 @@ var Challenges = function (_Component) {
             challenge.completed = true;
           }
         });
+        this.setState({
+          challenges: _newChallenges,
+          saved: _newChallenges
+        });
+        this.filterChallenges(undefined, { value: this.state.filter });
+        return this.props.updateProgress(this.state.saved);
+      }
+      var newChallenges = this.state.challenges.slice();
+
+      newChallenges[this.state.active].challenges.forEach(function (challenge) {
+        if (challenge.id === id) {
+          challenge.progress = updatedData;
+        }
+        if (Number(challenge.progress) === challenge.goal) {
+          challenge.completed = true;
+        }
       });
       this.setState({
-        challenges: newChallenges
+        challenges: newChallenges,
+        saved: newChallenges
       });
+      this.filterChallenges(undefined, { value: this.state.filter });
       return this.props.updateProgress(this.state.challenges);
+    }
+  }, {
+    key: 'markAllComplete',
+    value: function markAllComplete() {
+      var _this2 = this;
+
+      if (this.state.saved.length > 0) {
+        var _newState = this.state.saved.slice();
+        _newState[this.state.active].challenges.forEach(function (challenge) {
+          challenge.progress = challenge.goal;
+          challenge.completed = true;
+          _this2.updateChallenge(challenge.id, challenge.goal);
+        });
+        this.setState({
+          saved: _newState
+        });
+      } else {
+        var _newState2 = this.state.challenges.slice();
+        _newState2[this.state.active].challenges.forEach(function (challenge) {
+          challenge.progress = challenge.goal;
+          challenge.completed = true;
+          _this2.updateChallenge(challenge.id, challenge.goal);
+        });
+        this.setState({
+          challenges: _newState2
+        });
+      }
+      window.gtag('event', 'All Challenges Marked Complete');
+      return this.props.updateProgress(newState);
+    }
+  }, {
+    key: 'resetChallenges',
+    value: function resetChallenges() {
+      var _this3 = this;
+
+      if (this.state.saved.length > 0) {
+        var _newState3 = this.state.saved.slice();
+        _newState3[this.state.active].challenges.forEach(function (challenge) {
+          challenge.progress = 0;
+          challenge.completed = false;
+          _this3.updateChallenge(challenge.id, 0);
+        });
+        this.setState({
+          saved: _newState3
+        });
+      } else {
+        var _newState4 = this.state.challenges.slice();
+        _newState4[this.state.active].challenges.forEach(function (challenge) {
+          challenge.progress = 0;
+          challenge.completed = false;
+          _this3.updateChallenge(challenge.id, 0);
+        });
+        this.setState({
+          challenges: _newState4
+        });
+      }
+      window.gtag('event', 'All Challenges Reset');
+    }
+  }, {
+    key: 'filterChallenges',
+    value: function filterChallenges(e, _ref) {
+      var value = _ref.value;
+
+      var unfilteredChallenges = void 0;
+      if (this.state.active === -1) {
+        return this.setState({
+          filter: 'ALL'
+        });
+      } else if (this.state.saved.length > 0) {
+        console.log(JSON.stringify(this.state.saved[this.state.active]));
+        unfilteredChallenges = this.state.saved[this.state.active].challenges.slice();
+      } else {
+        unfilteredChallenges = this.state.challenges[this.state.active].challenges.slice();
+      }
+      var filteredChallenges = [];
+      unfilteredChallenges.forEach(function (challenge) {
+        if (value === 'INCOMPLETE') {
+          console.log('Incomplete. Challenge: ' + challenge.completed);
+          if (!challenge.completed) {
+            console.log('Pushing');
+            filteredChallenges.push(challenge);
+          }
+        } else if (value === 'COMPLETED') {
+          console.log('Complete. Challenge: ' + challenge.completed);
+          if (challenge.completed) {
+            console.log('Pushing');
+            filteredChallenges.push(challenge);
+          }
+        } else if (value === 'ALL') {
+          filteredChallenges.push(challenge);
+        }
+      });
+
+      this.setState({
+        filter: value,
+        current: filteredChallenges
+      });
     }
   }, {
     key: 'render',
     value: function render() {
-      var _this2 = this;
+      var _this4 = this;
 
       var showOrHide = this.state.active !== -1 ? '' : 'hide';
 
-      var renderButtons = function renderButtons() {
-        var count = -1;
-        if (_this2.state.active === -1) {
-          return _this2.state.challenges.map(function (week) {
-            return _react2.default.createElement(_semanticUiReact.Button, { value: week.week, content: 'Week ' + week.week, onClick: _this2.renderChallenges });
-          });
-        }
-        return _this2.state.challenges[_this2.state.active].challenges.map(function (challenge) {
+      var getChallenges = function getChallenges() {
+        // if (this.state.saved.length > 0) {
+        //     weeks.challenges.map((challenge) => {
+        //       console.log(`Challenge: ${JSON.stringify(challenge)}`);
+        //       if (this.state.filter === 'INCOMPLETE' && !challenge.completed) {
+        //         return (
+        //           <Challenge
+        //             key={challenge.id}
+        //             updateChallenge={this.updateChallenge}
+        //             challenge={challenge}
+        //             className="challenge"
+        //           />
+        //         );
+        //       } else if (this.state.filter === 'COMPLETED' && challenge.completed) {
+        //         return (
+        //           <Challenge
+        //             key={challenge.id}
+        //             updateChallenge={this.updateChallenge}
+        //             challenge={challenge}
+        //             className="challenge"
+        //           />
+        //         );
+        //       }
+        //       return (
+        //         <Challenge
+        //           key={challenge.id}
+        //           updateChallenge={this.updateChallenge}
+        //           challenge={challenge}
+        //           className="challenge"
+        //         />
+        //       );
+        //     });
+        // } else {
+        _this4.state.current.map(function (challenge) {
+          if (_this4.state.filter === 'INCOMPLETE' && !challenge.completed) {
+            return _react2.default.createElement(_Challenge2.default, {
+              key: challenge.id,
+              updateChallenge: _this4.updateChallenge,
+              challenge: challenge,
+              className: 'challenge'
+            });
+          } else if (_this4.state.filter === 'COMPLETED' && challenge.completed) {
+            return _react2.default.createElement(_Challenge2.default, {
+              key: challenge.id,
+              updateChallenge: _this4.updateChallenge,
+              challenge: challenge,
+              className: 'challenge'
+            });
+          }
           return _react2.default.createElement(_Challenge2.default, {
             key: challenge.id,
-            updateChallenge: _this2.updateChallenge,
+            updateChallenge: _this4.updateChallenge,
             challenge: challenge,
             className: 'challenge'
           });
         });
       };
 
+      var getButtons = function getButtons() {
+        if (_this4.state.active !== -1) {
+          getChallenges();
+        }
+        return _this4.state.challenges.map(function (week) {
+          console.log(week);
+          if (week.week === 'Starter' || week.week === 'All') {
+            return _react2.default.createElement(_semanticUiReact.Button, {
+              value: _this4.state.challenges.indexOf(week),
+              content: week.week,
+              onClick: _this4.renderChallenges
+            });
+          }
+          return _react2.default.createElement(_semanticUiReact.Button, { value: week.week, content: 'Week ' + week.week, onClick: _this4.renderChallenges });
+        });
+      };
+
+      // const allDone = () => {
+      //   if (this.state.active >= 0 && this.state.saved.length > 0) {
+      //     let flag = true;
+      //     this.state.saved.forEach((week) => {
+      //       week.challenges.forEach((challenge) => {
+      //         if (flag === true) {
+      //           if (!challenge.completed) {
+      //             flag = false;
+      //           }
+      //         }
+      //       });
+      //     });
+      //     if (flag === false) {
+      //       return (
+      //         <Button
+      //           id="mark-all-button"
+      //           content="Mark All as Complete"
+      //           onClick={this.markAllComplete}
+      //           className={showOrHide}
+      //         />
+      //       );
+      //     }
+      //     return (
+      //       <Button
+      //         id="mark-all-button"
+      //         content="Reset these Challenges"
+      //         onClick={this.resetChallenges}
+      //         className={showOrHide}
+      //       />
+      //     );
+      //     return this.props.updateProgress(this.state.saved);
+      //   } else {
+      //   if (this.state.active >= 0) {
+      //     let flag = true;
+      //     this.state.current.forEach((challenge) => {
+      //       if (flag === true) {
+      //         if (!challenge.completed) {
+      //           flag = false;
+      //         }
+      //       }
+      //     });
+      //     if (flag === false) {
+      //       return (
+      //         <Button
+      //           id="mark-all-button"
+      //           content="Mark All as Complete"
+      //           onClick={this.markAllComplete}
+      //           className={showOrHide}
+      //         />
+      //       );
+      //     }
+      //     return (
+      //       <Button
+      //         id="mark-all-button"
+      //         content="Reset these Challenges"
+      //         onClick={this.resetChallenges}
+      //         className={showOrHide}
+      //       />
+      //     );
+      //   }
+      //   return this.props.updateProgress(this.state.current);
+      // }
+      // };
+
+      var renderButtons = function renderButtons() {
+        var fetchChallenges = _this4.state.current.map(function (challenge) {
+          return _react2.default.createElement(_Challenge2.default, {
+            key: challenge.id,
+            updateChallenge: _this4.updateChallenge,
+            challenge: challenge,
+            className: 'challenge'
+          });
+        });
+
+        return fetchChallenges;
+      };
+      var options = [{ key: 'ALL', value: 'ALL', text: 'Show All Challenges' }, { key: 'COMPLETED', value: 'COMPLETED', text: 'Show Only Completed Challenges' }, { key: 'INCOMPLETE', value: 'INCOMPLETE', text: 'Show Only Unfinished Challenges' }];
       return _react2.default.createElement(
         _semanticUiReact.Container,
         null,
-        _react2.default.createElement(_semanticUiReact.Button, { id: 'top-button', content: 'Go Back', onClick: this.goBack, className: showOrHide }),
+        _react2.default.createElement(
+          _semanticUiReact.Container,
+          { id: 'challenge-weeks' },
+          getButtons()
+        ),
+        _react2.default.createElement(
+          _semanticUiReact.Container,
+          null,
+          _react2.default.createElement(_semanticUiReact.Dropdown, {
+            options: options,
+            onChange: this.filterChallenges,
+            placeholder: 'Show All Challenges',
+            value: this.state.filter,
+            id: 'challenge-filter-dropdown',
+            className: showOrHide
+            // style={{ display: 'none' }}
+          })
+        ),
         _react2.default.createElement(
           _semanticUiReact.Container,
           { id: 'challenge-container' },
           renderButtons()
-        ),
-        _react2.default.createElement(_semanticUiReact.Button, { id: 'bottom-button', content: 'Go Back', onClick: this.goBack, className: showOrHide })
+        )
       );
     }
   }]);
@@ -75770,4 +76157,4 @@ module.exports = __webpack_require__(/*! ./src/index.jsx */"./src/index.jsx");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=bundle.js.map
+//# sourceMappingURL=05142018-2155.js.map

@@ -6,13 +6,11 @@ class Challenge extends Component {
     super(props);
 
     this.state = {
-      completed: false,
+      completed: this.props.challenge.completed,
       progress: this.props.challenge.progress,
       goal: this.props.challenge.goal,
-      percent: 0,
       checkedBoxes: 0,
-      userInput: '',
-      reward: 0,
+      userInput: undefined,
     };
 
     this.incrementProgress = this.incrementProgress.bind(this);
@@ -21,7 +19,11 @@ class Challenge extends Component {
     this.submitInput = this.submitInput.bind(this);
     this.toggleCheckbox = this.toggleCheckbox.bind(this);
   }
-
+  componentWillMount() {
+    if (this.props.challenge.id === '0102') {
+      console.log(`Mounting: ${JSON.stringify(this.props.challenge)}`);
+    }
+  }
   componentDidMount() {
     const checkedBoxes = document.getElementsByClassName('ui checked checkbox');
     this.setState({
@@ -33,6 +35,18 @@ class Challenge extends Component {
     }
   }
 
+  shouldComponentUpdate(newProps, newState) {
+    if (this.state.progress !== newProps.challenge.progress) {
+      this.setState({
+        completed: this.props.challenge.completed,
+        progress: this.props.challenge.progress,
+        goal: this.props.challenge.goal,
+      });
+      return true;
+    }
+    return false;
+  }
+
   incrementProgress() {
     if (this.state.progress < this.state.goal) {
       const increment = (this.state.progress + 1) / this.state.goal;
@@ -42,60 +56,67 @@ class Challenge extends Component {
         percent: percentage,
       });
     }
+    window.gtag('event', 'Progress Incremented');
     return this.props.updateChallenge(this.props.challenge.id, this.state.progress + 1);
   }
 
   decrementProgress() {
+    console.log(`this.state.progress is a ${typeof this.state.progress}`);
     if (this.state.progress > 0) {
+      alert('Decrementing');
       const increment = (this.state.progress - 1) / this.state.goal;
       const percentage = increment * 100;
+      window.gtag('event', 'Progress Decremented');
       this.setState({
         progress: this.state.progress - 1,
         percent: percentage,
       });
+      return this.props.updateChallenge(this.props.challenge.id, this.state.progress - 1);
     }
-    return this.props.updateChallenge(this.props.challenge.id, this.state.progress + 1);
   }
 
   inputProgress(e) {
-    this.setState({
+    const userInput = e.target.value;
+    if (Number(userInput) > this.props.challenge.goal) {
+      e.target.value = this.props.challenge.goal;
+    } else if (Number(userInput) < 0) {
+      e.target.value = 0;
+    }
+    return this.setState({
       userInput: e.target.value,
     });
   }
 
   submitInput() {
+    window.gtag('event', 'Input Submitted');
     let input = this.state.userInput;
     if (this.state.userInput > this.state.goal) {
       input = this.state.goal;
     } else if (this.state.userInput < 0) {
       input = 0;
-    } else if (this.state.userInput === '') {
+    } else if (!this.state.userInput || this.state.userInput === '') {
       input = this.state.progress;
     }
 
     this.setState({
       progress: input,
       percent: input / this.state.goal * 100,
-      userInput: '',
+      userInput: undefined,
     });
     return this.props.updateChallenge(this.props.challenge.id, input);
   }
 
   toggleCheckbox(e) {
-    setTimeout(() => {
-      const checkedBoxes = document.getElementsByClassName('ui checked checkbox');
-      if (checkedBoxes.length > this.state.checkedBoxes) {
-        this.setState({
-          progress: 1,
-          checkedBoxes: checkedBoxes.length,
-        });
-      } else {
-        this.setState({
-          progress: 0,
-          checkedBoxes: checkedBoxes.length,
-        });
-      }
-    }, 10);
+    if (![...e.currentTarget.classList].includes('checked')) {
+      this.setState({
+        progress: 1,
+      });
+      return this.props.updateChallenge(this.props.challenge.id, this.props.challenge.goal);
+    }
+    this.setState({
+      progress: 0,
+    });
+    return this.props.updateChallenge(this.props.challenge.id, 0);
   }
 
   render() {
@@ -166,7 +187,7 @@ class Challenge extends Component {
           <Input
             className="challenge-input"
             type="number"
-            value={this.state.userInput}
+            value={Number(this.state.userInput) || this.state.userInput}
             onChange={this.inputProgress}
           />
           <Button className="challenge-input" onClick={this.submitInput} content="Update" />
@@ -175,7 +196,7 @@ class Challenge extends Component {
     };
 
     const challengeReward =
-      Number(this.state.progress) === this.state.goal
+      Number(this.props.challenge.progress) === this.props.challenge.goal
         ? 'challenge-reward-complete'
         : 'challenge-reward-incomplete';
 
@@ -190,11 +211,11 @@ class Challenge extends Component {
         {inputButtonsOrCheckbox()}
         <Progress
           indicating
-          percent={this.state.progress / this.state.goal * 100}
+          percent={this.state.progress / this.props.challenge.goal * 100}
           className="challenge-progress-bar"
         >
           <span className="challenge-progress-text">
-            {`${this.state.progress} / ${this.state.goal}`}
+            {`${this.state.progress} / ${this.props.challenge.goal}`}
           </span>
         </Progress>
         <p className="challenge-reward-text">
